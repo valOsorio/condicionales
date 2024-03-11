@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio2</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/css.css" />
+  </head>
+
+  <body class="b-ejercicio2">
+    <header>
+      <h1 class="t-stickers">Puedes llevar hasta 10 stickers</h1>
+    </header>
+    <main class="flex-stickers w-80">
+      <div class="sticker">
+        <img src="./assets/img/sticker1.jpg" alt="sticker Fullstack" />
+        <input id="input1" type="number" min="0" />
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/sticker2.jpg" alt="sticker Github" />
+        <input id="input2" type="number" min="0" />
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/sticker3.jpg" alt="sticker Linux SQL" />
+        <input id="input3" type="number" min="0" />
+      </div>
+    </main>
+    <section class="final">
+      <button class="s_btn btn" id="btn">Verificar</button>
+      <h3 id="message" class="text-center h-message">
+        Agrega los stickers que quieras llevar
+      </h3>
+    </section>
+
+    <script src="./assets/js/ejercicio2.js"></script>
+  </body>
+</html>
